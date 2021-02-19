@@ -1,0 +1,558 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+/*общие стили*/
+h1,h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #D4C17F;
+}
+p{
+    color: #fff;
+}
+.title h1{
+    width: 36%;
+    margin: 0% 32%;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+/*первая секция*/
+.first{
+    background-image: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), 
+    url(https://brooklynbased.com/wp-content/uploads/2016/01/465-pacific-street-brooklyn-terrace.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    
+}
+/*меню*/
+header .navbar-brand{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+header .nav-item:hover{
+    border-bottom: 1px solid #fff;
+    transition: all 0.6s;
+}
+header .nav-item{
+    color: #fff;
+    padding: 0px 5px;
+}
+/*мышка*/
+.btn-scroll{
+    background-color: transparent;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+/*контакты внизу первой секции*/
+.contact{
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    margin-right: 4%;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.placeholder, .phone{
+    margin: 14% 2%;
+    display: flex;
+}
+/*секция 2-3*/
+.second, .three, .five, .six, .seven{
+    background-color: #242B33;
+}
+.col p{
+    text-align: center;
+}
+.col img{
+    padding-left: 22%;
+}
+.infrastructure{
+    padding: 10% 0%;
+}
+/*блок наши квартиры*/
+.loft-3{
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%),
+    url(../img/loft-3.png) no-repeat,
+     #D4C17F;
+    background-size: 100%;
+    position: relative;
+    height: 320px;
+    width: 480px;
+    border: 10px solid #242B33;
+}
+
+.info{
+    position: absolute;
+    width: 90%;
+    top: 250px;
+    left: 50px;
+}
+.three h2{
+    padding-bottom: 5%;
+}
+.three{
+    padding-bottom: 5%;
+}
+/*4 секция запись на просмотр квартир*/
+.forth{
+    background: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), 
+    url(https://i2.wp.com/dksolutionsusa.com/wp-content/uploads/2020/08/cropped-photo-1486406146926-c627a92ad1ab.jpg?ssl=1) no-repeat, #C4C4C4;
+    height: 560px;
+    width: 100%;
+    background-size: cover;
+}
+.forth h2{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.text-left{
+    padding-top: 2%;
+}
+.forth input {
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    opacity: 0.7;
+}
+.forth, .seven input::placeholder {
+  color: #fff;
+}
+form{
+    width: 100%;
+}
+form .number{
+    float: right;
+}
+form p{
+    padding: 6% 0%;
+    width: 45%;
+    font-size: 13px;
+    position: relative;
+}
+
+.button{
+    font-weight: 700;
+    float: left;
+    font-size: 16px;
+    background: #D4C17F;
+    padding: 2% 8.5%;
+    color: #fff;
+    position: absolute;
+    left: 51%;
+    bottom: 22%;
+}
+.video{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#card{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 100%;
+}
+.btn-flat{
+    width: 255px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    background: #D4C17F;
+    color: #fff;
+}
+.question{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+.question p{
+    height: 28px;
+    width: 250px;
+    font-size: 13px;
+    text-align: center;
+}
+.question input{
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    opacity: 0.7;
+}
+.footer{
+    background-color: #2D343C;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.name a{
+    font-weight: 600;
+    font-size: 36px;
+    color: #fff;
+}
+.name a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.about a{
+    color: #fff;
+}
+.about a:hover{
+    color: #fff;
+}
+.about a{
+    line-height: 2.3;
+}
+.col span{
+    color: #D4C17F;
+    font-weight: 700;
+}
+.col img{
+    margin-right: 8%;
+}
+/*медиа запросы*/
+/* iphone 5 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) { 
+    .title h1 {
+        width: 80%;
+        margin: 0% 10%;
+        font-size: 30px;
+        padding-top: 30%;
+    }
+    .contact, .want-watch form{
+        display: inline;
+    }
+    .placeholder{
+        margin: 5% 10%;
+        margin-top: 30%;   
+    }
+    .phone{
+        margin: 2% 20%;
+    }
+    .loft-3{
+        height: 220px;
+    }
+    .info{
+        width: 90%;
+        top: 170px;
+        left: 20px;
+    }
+    .want-watch p{
+        width: 100%;
+        padding: 20% 0%;
+    }
+    .your-name, .number{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    form .number {
+        float: left;
+    }
+    .want-watch button{
+        width: 80%;
+        left: 10%;
+        right: 10%;
+        bottom: 10%;
+        margin-top: 10%;
+    }
+    .video img{
+        width: 290px;
+    }
+    .question{
+        display: inline;
+        margin-left: 5%;
+    }
+    .btn-flat{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .question p,
+    .vvod{
+        margin-left: 5%;
+    }
+}
+/* iphone 6, 6s, 7, 8 */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    .title h1 {
+        width: 80%;
+        margin: 10% 10%;
+        font-size: 36px;
+    }
+    .contact, .want-watch form, .question{
+        display: inline;
+    }
+    .placeholder{
+        margin: 5% 15%;
+        margin-top: 30%;   
+    }
+    .phone{
+        margin: 2% 22%;
+    }
+    .loft-3{
+        height: 250px;
+    }
+    .info{
+        width: 90%;
+        top: 190px;
+        left: 20px;
+    }
+    form p {
+        padding: 15% 0%;
+        width: 90%;
+    }
+    .your-name, .number{
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+    form .number {
+        float: left;
+    }
+    .want-watch button{
+        width: 80%;
+        left: 10%;
+        bottom: 5%;
+    }
+    .video img{
+        width: 350px;
+    }
+    .btn-flat{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .question p,
+    .vvod{
+        margin-left: 15%;
+    }
+}
+/* iphone X , XS, 11 Pro */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .title h1 {
+        width: 80%;
+        margin: 0% 10%;
+        font-size: 40px;
+        margin-top: 30%;
+    }
+    .contact, .question, .want-watch form{
+        display: inline;
+    }
+    .placeholder{
+        margin: 3% 12%;
+        margin-top: 40%;   
+    }
+    .phone{
+        margin: 2% 20%;
+    }
+    .loft-3{
+        height: 250px;
+    }
+    .info{
+        width: 90%;
+        top: 200px;
+        left: 20px;
+    }
+    form p {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 20% 0%;
+        width: 90%;
+    }
+    .your-name, .number{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    form .number {
+        float: left;
+    }
+    .want-watch button{
+        width: 80%;
+        left: 10%;
+        bottom: 5%;
+    }
+    .video img{
+        width: 350px;
+    }
+    .btn-flat{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .question p,
+    .vvod{
+        margin-left: 13%;
+    }
+}
+/* iphone 6+, 6s+, 7+, 8+ */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) { 
+    .title h1 {
+        width: 80%;
+        margin: 10% 10%;
+        font-size: 40px;
+    }
+    .contact, .question, .want-watch form{
+        display: inline;
+    }
+    .placeholder{
+        margin: 5% 18%;
+        margin-top: 28%;   
+    }
+    .phone{
+        margin: 2% 18%;
+    }
+    .loft-3{
+        height: 280px;
+    }
+    .info{
+        width: 90%;
+        top: 230px;
+        left: 30px;
+    }
+    .video img{
+        width: 400px;
+    }
+    form p {
+        padding: 15% 0%;
+        width: 90%;
+    }
+    .want-watch button{
+        width: 80%;
+        left: 10%;
+        bottom: 5%;
+    }
+    .btn-flat{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .question p,
+    .vvod{
+        margin-left: 18%;
+    }
+}
+/* iphone XR, 11 */
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) { 
+    .title h1 {
+        width: 80%;
+        margin: 0% 10%;
+        font-size: 40px;
+        margin-top: 25%;
+    }
+    .contact, .question, .want-watch form{
+        display: inline;
+    }
+    .placeholder{
+        margin: 3% 15%;
+        margin-top: 30%;   
+    }
+    .phone{
+        margin: 2% 22%;
+    }
+    .loft-3{
+        height: 280px;
+    }
+    .info{
+        width: 90%;
+        top: 220px;
+        left: 20px;
+    }
+    form p {
+        padding: 15% 0%;
+        width: 90%;
+    }
+    .want-watch button{
+        width: 80%;
+        left: 10%;
+        bottom: 5%;
+    }
+    .video img{
+        width: 383px;
+    }
+    .btn-flat{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .question p,
+    .vvod{
+        margin-left: 16%;
+    }
+}
+/*айпад*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .title h1 {
+        width: 60%;
+        margin: 0% 20%;
+        margin-top: 15%
+    }
+    .placeholder, .phone{
+        margin-top: 50%;   
+    }
+    .col img {
+        padding-left: 37%;
+    }
+    .loft-3{
+        height: 250px;
+    }
+    .info{
+        top: 200px;
+        left: 30px;
+    }
+    .question, .want-watch form{
+        display: inline;
+    }
+    .forth input {
+        width: 48%;
+    }
+    form p {
+    padding: 11% 0%;
+    width: 100%;
+    }
+    .want-watch button{
+        width: 80%;
+        left: 10%;
+        bottom: 5%;
+    }
+    .forth{
+        height: 417px;
+    }
+    .btn-flat{
+        margin: 10% 25% 5% 25%;
+    }
+    .question p{
+        width: 100%;
+    }
+    .vvod{
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+}
+/*айпад про*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px){
+    .title h1{
+        margin-top: 29%;
+    }
+    .col img {
+    padding-left: 20%;
+    }
+    .forth input {
+        width: 48%;
+    }
+    form p {
+        padding: 5% 0% 15% 0%;
+    }
+    .vvod{
+        margin-left: 23%;
+        margin-right: 23%;
+    }
+}
